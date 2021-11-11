@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+		"strictNullChecks": false,
+    "esModuleInterop": true,
+    "outDir": "dist/",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "noImplicitThis": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "removeComments": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": true,
+		"allowSyntheticDefaultImports": true,
+  },
+  "include": ["./contract-types"],
+  "exclude": ["<outDir>", "node_modules/**/*", "dist/**/*"],
+  "files": ["./hardhat.config.ts", "./index.ts"],
+  "compileOnSave": true
+}
